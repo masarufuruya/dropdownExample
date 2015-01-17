@@ -38,6 +38,7 @@ button {
 }
 
 .page-logo {
+	position: relative;
 	width: 28px;
 	height: 28px;
 }
@@ -50,12 +51,21 @@ button {
 	margin-right: 25px;
 }
 
-.page-logo img {
+.caret {
+	color:#fff;
+	margin-top: 12px;
+}
+
+.comnico {
 	width: 28px;
 	height: 28px;
 }
 
-.caret {
-	color:#fff;
-	margin-top: 12px;
+.fb {
+	position: absolute;
+	z-index: 9000;
+	width: 18px;
+	height: 18px;
+	top: 10px;
+	left: 10px;
 }
